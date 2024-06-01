@@ -77,12 +77,7 @@ class TodoItem extends Component {
             </>
           ) : (
             <>
-              <input
-                type="checkbox"
-                checked={todoDetails.completed}
-                onChange={() => toggleComplete(todoDetails.id)}
-                className="check"
-              />
+              
               <div className="colum">
                 <p className="title">{todoDetails.title}</p>
                 <p className="title">{todoDetails.dateofbirth}</p>
