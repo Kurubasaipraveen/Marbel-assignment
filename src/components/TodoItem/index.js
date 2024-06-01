@@ -33,6 +33,7 @@ class TodoItem extends Component {
       updatedTitle: e.target.value,
     })
   }
+  
   render() {
     const {todoDetails, deleteTodo, toggleComplete} = this.props
     const {
